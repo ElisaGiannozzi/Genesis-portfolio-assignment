@@ -9,26 +9,20 @@ body {
 }
 
 .navigation-container {
-    display: flex;  
+    display: flex;
+    justify-content: space-around;   
     align-items: center; 
-}
-
-.logo {
-    flex-grow: 2; 
-    margin-left: 100px; 
 }
 
 .navigation-links {
     display: flex; 
     flex-direction: row; 
-    justify-content: space-evenly;
+    justify-content: space-around;
     min-width: 300px; 
     list-style-type: none; 
     text-decoration: none;  
     font-size: 18px;
     font-weight: bold;  
-    flex-grow: 1; 
-    margin-right: 150px; 
 }
 
 a:link {
@@ -45,7 +39,7 @@ a:hover {
 
 .section1 {
     display: flex; 
-    min-height: 60vh; 
+    min-height: 45vh; 
     justify-content: center; 
     margin-top: 30px; 
 }
@@ -86,11 +80,13 @@ a:hover {
 
 .item1, .item2, .item3, .item4, .item5, .item6 {
     padding-bottom: 20px; 
+    border-bottom: 1px solid #D8D8D8; 
 }
 
 .items-specification1, .items-specification2, .items-specification3, 
 .items-specification4, .items-specification5, .items-specification6 {
     padding-bottom: 20px; 
+    border-bottom: 1px solid #D8D8D8;
 }
 
 .section2 {
