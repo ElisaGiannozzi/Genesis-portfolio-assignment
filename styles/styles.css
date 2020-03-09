@@ -25,6 +25,10 @@ body {
     font-weight: bold;  
 }
 
+.logo {
+    padding-right: 150px; 
+}
+
 a:link {
     text-decoration: none; 
   }
